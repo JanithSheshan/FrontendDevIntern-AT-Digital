@@ -1,6 +1,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -378,6 +384,7 @@ section {
 
 .about h3 {
   color: #6B3CC9;
+  text-align: center;
 }
 
 @media screen and (max-width: 767px) {
