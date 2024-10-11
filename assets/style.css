@@ -239,19 +239,26 @@ h6 {
   # Hero Section
   --------------------------------------------------------------*/
 #hero {
+  display: block;
+  max-width: 100%;
+  height: auto;
   width: 100%;
-  background: url("./images/hero.png") bottom center no-repeat;
   background-size: cover;
-  position: relative;
-  padding: 100px 0 0 0;
+  padding: 0 0 0 0;
+}
+
+#hero .hero-bg img {
+  width: 100%;
+  
 }
 
 #hero h1 {
+  position: absolute;
   font-family: 'Inter', sans-serif;
   width: 500px;
   padding: 10px 20px;
   background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%);
-  margin: 20% 0 30px 10%;
+  margin: 35% 0 5% 10%;
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
@@ -296,7 +303,7 @@ h6 {
     font-size: 43px;
     line-height: 47px;
     width: 100%;
-    margin: 90% 0 0 0;
+    margin: 60% 0 0 0;
     padding: 0 60px 10px 60px !important;
   }
 
@@ -316,7 +323,7 @@ h6 {
     font-size: 30px;
     line-height: 35px;
     width: 100%;
-    margin: 90% 0 0 0;
+    margin: 60% 0 0 0;
     padding: 0 20px 10px 20px !important;
 }
 }
@@ -373,8 +380,14 @@ section {
   --------------------------------------------------------------*/
 .about {
   padding: 0 0 0 0;
+  margin-top: 130px;
 }
 
+.about-two {
+  padding: 0 0 0 0;
+}
+
+.about-two .icon-boxes h3,
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
@@ -382,26 +395,31 @@ section {
   margin-bottom: 15px;
 }
 
+.about-two img,
 .about img {
   width: 100%;
 }
 
+.about-two h3,
 .about h3 {
   font: 'Poppins', sans-serif;
   color: #6B3CC9;
 }
 
+.about-two p,
 .about p {
   font: 'inter', sans-serif;
 }
 
 @media screen and (max-width: 767px) {
+  .about-two,
   .about {
     display: flex;
     text-align: center;
     padding: 10px  20px 10px 20px;
   }
 
+  .about-two h3,
   .about h3 {
     color: #6B3CC9;
     text-align: center;
@@ -412,15 +430,18 @@ section {
     justify-content: center;
   }
 
+  .about-two .container>*,
   .about .container>* {
     display: flex;
     justify-content: center;
   }
 
+  .about-two .colum1,
   #about .colum1 {
     order: 2;
   }
 
+  .about-two .colum2,
   #about .colum2 {
     order: 1;
   }
@@ -432,6 +453,7 @@ section {
   align-content: center;
 }
 
+.about-two .btn-learnmore,
 .about .btn-learnmore {
   font: 'Inter', sans-serif;
   display: inline;
@@ -446,14 +468,17 @@ section {
 }
 
 @media (max-width: 375px) {
+  .about-two,
   .about {
     align-items: center;
   }
 
+  .about-two img,
   .about img {
     align-items: center;
   }
 
+  .about-two p,
   .about p {
     text-align: center;
   }
