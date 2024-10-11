@@ -455,7 +455,7 @@ section {
 .about-two .btn-learnmore,
 .about .btn-learnmore {
   font: 'Inter', sans-serif;
-  display: inline !important;
+  display: inline-block !important;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
