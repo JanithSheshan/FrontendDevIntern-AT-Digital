@@ -295,8 +295,10 @@ h6 {
   }
 
   #hero h1 {
+    font-size: 43px;
     width: 100%;
-    margin: 100% 0 0 0;
+    margin: 50% 0 0 0;
+    padding: 0 60px 0 60px !important;
   }
 
   #hero .hero-img img {
@@ -312,9 +314,11 @@ h6 {
 
 @media (max-width: 375px) {
   #hero h1 {
+    font-size: 30px;
     width: 100%;
-    margin: 100% 0 0 0;
-  }
+    margin: 70% 0 0 0;
+    padding: 0 20px 0 20px !important;
+}
 }
 
 /*--------------------------------------------------------------
@@ -384,7 +388,6 @@ section {
 
 .about h3 {
   color: #6B3CC9;
-  text-align: center;
 }
 
 @media screen and (max-width: 767px) {
@@ -392,6 +395,11 @@ section {
     display: flex;
     text-align: center;
     padding: 10px  20px 10px 20px;
+  }
+
+  .about h3 {
+    color: #6B3CC9;
+    text-align: center;
   }
 
   .container .align-items-center {
