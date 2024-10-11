@@ -240,7 +240,7 @@ h6 {
   --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url("./images/hero.png") bottom no-repeat;
+  background: url("./images/hero.png") bottom center no-repeat;
   background-size: cover;
   position: relative;
   padding: 100px 0 0 0;
