@@ -466,10 +466,6 @@ section {
   margin-bottom: 20px;
 }
 
-.about-two .colum1 .btn-learnmore {
-  display: inline;
-}
-
 @media (max-width: 375px) {
   .about-two,
   .about {
