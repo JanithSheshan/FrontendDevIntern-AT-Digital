@@ -481,6 +481,10 @@ section {
   .about p {
     text-align: center;
   }
+
+  .about-two .colum1 .btn-learnmore {
+    display: inline-block !important;
+  }
 }
 
 /*--------------------------------------------------------------
