@@ -415,7 +415,7 @@ section {
   .about {
     display: flex;
     text-align: center;
-    padding: 10px  20px 10px 20px;
+    padding: 60px  20px 10px 20px;
   }
 
   .about-two h3,
@@ -464,6 +464,10 @@ section {
   color: #fff;
   background: #F28D35;
   margin-bottom: 20px;
+}
+
+.about-two .colum1 .btn-learnmore {
+  display: inline;
 }
 
 @media (max-width: 375px) {
