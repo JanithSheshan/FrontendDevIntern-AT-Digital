@@ -452,8 +452,7 @@ section {
   align-content: center;
 }
 
-.about-two .btn-learnmore,
-.about .btn-learnmore {
+.btn-learnmore {
   font: 'Inter', sans-serif;
   display: inline-block !important;
   font-weight: 500;
@@ -480,10 +479,6 @@ section {
   .about-two p,
   .about p {
     text-align: center;
-  }
-
-  .about-two .colum1 .btn-learnmore {
-    display: inline-block !important;
   }
 }
 
